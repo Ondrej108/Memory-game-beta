@@ -2,7 +2,7 @@
 
 An interactive memory card game built with pure HTML5, CSS3, and JavaScript. Test your memory by matching pairs of cards in this classic concentration game featuring a clean design, smooth animations, and multilingual support.
 
-**Live Demo**: https://ondrej108.github.io/Memory-game-beta/
+**Live Demo**: https://ondrej108.github.io/Memory-game-beta-desktop-only/
 
 ---
 
@@ -80,12 +80,12 @@ This is a static website, making it simple to run locally or deploy online.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Ondrej108/Memory-game-beta.git
+   git clone https://github.com/Ondrej108/Memory-game-beta-desktop-only.git
    ```
 
 2. **Navigate to the project folder**:
    ```bash
-   cd Memory-game-beta
+   cd Memory-game-beta-desktop-only
    ```
 
 3. **Open in browser**:
@@ -103,7 +103,7 @@ This is a static website, making it simple to run locally or deploy online.
 
 2. **Visit your live site** at:
    ```
-   https://ondrej108.github.io/Memory-game-beta/
+   https://ondrej108.github.io/Memory-game-beta-desktop-only/
    ```
 
 ---
@@ -111,84 +111,3 @@ This is a static website, making it simple to run locally or deploy online.
 ## 📁 Project Structure
 
 ```
-Memory-game-beta/
-├── index.html          # Main game page
-├── script.js           # Game logic and functionality
-├── style.css           # Main stylesheet
-├── translation.js      # Multilingual support system
-├── translation.css     # Translation styling
-├── img/                # Card images directory
-├── img2/               # Alternative card images
-└── README.md           # Project documentation
-```
-
----
-
-## 🎮 How to Play
-
-1. **Start the Game**: Open the game in your browser
-2. **Click on Cards**: Click any card to flip it over and reveal the image
-3. **Find Matches**: Click another card to find its matching pair
-4. **Match Pairs**: If two cards match, they stay face-up
-5. **No Match**: If cards don't match, they flip back over after a short delay
-6. **Win the Game**: Match all pairs to complete the game
-7. **Track Progress**: Watch your move counter to see how efficiently you can complete the game
-
----
-
-## 🌐 Browser Compatibility
-
-This game works on all modern browsers:
-- ✅ Chrome (recommended)
-- ✅ Firefox
-- ✅ Safari
-- ✅ Edge
-- ✅ Opera
-
----
-
-## 🚀 Future Improvements
-
-Potential features for future versions:
-- ⏱️ Timer to track game completion time
-- 🏆 High score leaderboard (using localStorage)
-- 🎚️ Difficulty levels (different grid sizes)
-- 🎵 Sound effects for card flips and matches
-- 🎨 Multiple theme options
-- 📊 Statistics dashboard (win rate, average moves, etc.)
-- 💾 Game state persistence (save/load progress)
-- 🎯 Achievement system
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available for personal and educational use.
-
----
-
-## 📧 Contact
-
-**Ondrej108**
-- GitHub: [@Ondrej108](https://github.com/Ondrej108)
-- Repository: [Memory-game-beta](https://github.com/Ondrej108/Memory-game-beta)
-
----
-
-## About This Project
-
-This memory card game was created as a front-end development project to practice JavaScript game logic, CSS animations, and responsive design. It demonstrates proficiency in DOM manipulation, event handling, array algorithms, and creating an engaging user experience with pure vanilla JavaScript.
-
-Feel free to explore the code, suggest improvements, or use it as a learning resource! 🎮✨
