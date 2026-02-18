@@ -1,0 +1,212 @@
+/*===== MOBILE =====*/
+
+@media (max-width: 480px) {
+  /* ===== BASE STYLES ===== */
+
+  /* ===== LAYOUT ===== */
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-content {
+    align-items: stretch;
+    margin: 0;
+  }
+
+  /* ===== HEADER ===== */
+
+  /* ===== SIDEBARS ===== */
+
+  .sidebar-left {
+    visibility: hidden;
+    display: none;
+  }
+
+  .sidebar-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0; */
+    gap: 8px;
+    width: 100%;
+  }
+
+  /* ===== BUTTONS ===== */
+
+  .button-start,
+  .button-reset,
+  .timer {
+    margin: 5px 0;
+    height: 45px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .language-selector {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lang-btn {
+    font-size: 10px;
+  }
+
+  /* ===== TIMER ===== */
+
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+
+  /* ===== GAME CARDS ===== */
+
+  .cards-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+
+    align-items: center;
+    row-gap: 2px;
+    column-gap: 2px;
+    width: 95%;
+
+    max-width: 480px;
+  }
+
+  .game-cards img,
+  .game-cards img.hidden1 {
+    /* display: block; */
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 1 / 1;
+    place-self: center;
+  }
+
+  .game-cards img.hidden1 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* ===== MATCH/NO-MATCH MESSAGES ===== */
+
+  .match-green,
+  .no-match-red {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.1;
+  }
+
+  /* ===== END GAME MESSAGE ===== */
+
+  /* ===== FOOTER ===== */
+
+  .footer-text {
+    font-size: 14px;
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  /* Dimmed cards when match/no-match shows */
+
+  /* Card states */
+}
+
+/* ===== ANIMATIONS ===== */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* ===== TABLET ===== */
+
+@media (max-width: 1024px) {
+  /* ===== BASE STYLES ===== */
+
+  h1 {
+    font-size: 28px;
+  }
+
+  /* ===== HEADER ===== */
+
+  .header {
+    min-height: 60px;
+  }
+
+  /* ===== LAYOUT ===== */
+
+  .container {
+    flex-direction: column;
+  }
+
+  /* ===== SIDEBARS ===== */
+
+  .sidebar-left {
+    display: none;
+  }
+
+  .sidebar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  /* ===== BUTTONS ===== */
+
+  .button-start,
+  .button-reset {
+    margin: 5px 0;
+    height: 50px;
+    width: 120px;
+    font-size: 14px;
+  }
+
+  /* ===== TIMER ===== */
+
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+
+  /* ===== GAME CARDS ===== */
+
+  .cards-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    row-gap: 12px;
+    column-gap: 12px;
+    width: 90%;
+
+    max-width: 760px;
+  }
+
+  .game-cards img,
+  .game-cards img.hidden1 {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 1 / 1;
+    place-self: center;
+  }
+}
+
+/* ===== MATCH/NO-MATCH MESSAGES ===== */
+
+.match-green,
+.no-match-red {
+  text-align: center;
+  font-size: 70px;
+  line-height: 1.1;
+}
