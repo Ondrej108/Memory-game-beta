@@ -6,7 +6,7 @@ A simple and fun memory card matching game built as a personal learning project.
 
 This is an interactive memory card game where players need to match pairs of cards within a time limit. The game features a clean, modern interface with bilingual support (English and Czech).
 
-**Live Demo:** [View on GitHub Pages](https://ondrej108.github.io/Memory-game-beta-desktop-only/)
+**Live Demo:** [View on GitHub Pages](https://ondrej108.github.io/Memory-game/)
 
 ## ✨ Features
 
@@ -37,7 +37,7 @@ This is an interactive memory card game where players need to match pairs of car
 ## 📁 Project Structure
 
 ```
-Memory-game-beta-desktop-only/
+Memory-game/
 ├── index.html          # Main HTML structure
 ├── style.css           # Main stylesheet
 ├── media.css           # Media queries and responsive styles
@@ -59,12 +59,12 @@ The game supports two languages:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ondrej108/Memory-game-beta-desktop-only.git
+   git clone https://github.com/Ondrej108/Memory-game.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd Memory-game-beta-desktop-only
+   cd Memory-game
    ```
 
 3. Open `index.html` in your web browser:
